@@ -1,0 +1,82 @@
+<mj-raw>
+    <!-- FOOTER SECTION -->
+</mj-raw>
+    <mj-section css-class="navbar" padding="0px" background-color="#020027" text-align="center">
+
+    <mj-column css-class="navbar-col" padding="0px">
+    <mj-text align="center"><a href="https://www.dboysboxing.com/classes" class="navbar-col-link"> Boxing Classes </a></mj-text>
+    </mj-column>
+
+
+    <mj-column padding="0px">
+       <mj-text align="center"><a href="https://www.dboysboxing.com/pro-d-boys" class="navbar-col-link"> Boxing News </a></mj-text>
+    </mj-column>
+
+
+     <mj-column padding="0px">
+        <mj-text align="center"><a href="https://www.dboysboxing.com/basic-01" class="navbar-col-link"> Contact Us </a></mj-text>
+    </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#03012b" padding="10px 0px 0px 0px">
+    <mj-column padding="0px">
+        <mj-social icon-size="90px" mode="horizontal" >
+          <mj-social-element src="https://i.imgur.com/g5FKMfo.png" alt="apple appstore" href="#">
+          </mj-social-element>
+          <mj-social-element src="https://i.imgur.com/RVgqbvu.png" alt="google play" href="#">
+          </mj-social-element>
+          <mj-social-element src="https://i.imgur.com/guIj9aN.png" alt="roku" href="#">
+          </mj-social-element>
+           <mj-social-element src="https://i.imgur.com/K76ZGkq.png" alt="amazon appstore" href="#">
+          </mj-social-element>
+           <mj-social-element src="https://i.imgur.com/mURtlCH.png" alt="Huawei app gallery" href="#">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+      <!-- <mj-column>
+        <mj-image mj-class="footer-widget" width="100px" height="30px" src="images/appstore.png" alt="appstore-icon"/>
+      </mj-column>
+       <mj-column>
+        <mj-image mj-class="footer-widget" width="100px" height="30px" src="images/google-play.png" alt="appstore-icon"/>
+      </mj-column>
+       <mj-column>
+        <mj-image mj-class="footer-widget" width="100px" height="30px" src="images/roku-icon.png" alt="appstore-icon"/>
+      </mj-column>
+       <mj-column>
+        <mj-image mj-class="footer-widget" width="100px" height="30px" src="images/amazon-appstore.png" alt="appstore-icon"/>
+      </mj-column>
+       <mj-column>
+        <mj-image mj-class="footer-widget" width="100px" height="30px" src="images/appGallery.png" alt="appstore-icon"/>
+      </mj-column> -->
+    </mj-section>
+
+
+    <mj-section background-color="#03012d" padding="0px">
+        <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element src="https://i.imgur.com/sYAlrr4.png" alt="facebook icon" href="#">
+          </mj-social-element>
+          <mj-social-element src="https://i.imgur.com/WE6ilUP.png" alt="twitter icon" href="#">
+          </mj-social-element>
+          <mj-social-element src="https://i.imgur.com/9QWI9wt.png" alt="instagram icon" href="#">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section background-color="#03012f" padding-top="50px">
+      <mj-column>
+        <mj-text color="grey" align="center">
+          Copyright &copy; 2022 Flipps Media, Inc., All rights reserved.
+        </mj-text>
+
+         <mj-text color="grey" align="center">
+          A	Triller	Company |	dboysboxing.com
+        </mj-text>
+
+         <mj-text color="grey" align="center">
+          You received this email because you've signed up with FITE. Don’t want to receive these messages anymore? <a href="#" class="footer-link">Unsubscribe</a> and we’ll stop sending them.
+        </mj-text>
+      </mj-column>
+    </mj-section>

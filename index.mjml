@@ -1,0 +1,391 @@
+<mjml>
+    <mj-head>
+    <mj-attributes>
+    <mj-class
+      name="slogan"
+      font-size="15px"
+      font-weight="300"
+      padding="0px"
+    />
+    <mj-class
+      name="vsboxer-container"
+      vertical-align="middle"
+    />
+      <mj-class
+      name="versus-title"
+      color="#ffffff"
+      font-size="50px"
+      align="center"
+      font-weight="900"
+      font-family="Georgia, serif"
+      />
+      <mj-class
+      name="fight-name"
+      color="#ffffff"
+      font-size="18px"
+      font-weight="600"
+      font-family="system-ui"
+      align="center"
+      />
+      <mj-class
+      name="fight-rec"
+      color="#ffffff"
+      font-size="12px"
+      font-weight="300"
+      font-family="system-ui"
+      align="center"
+      padding="0px"
+      />
+      <mj-class
+      name="main-event-title"
+      color="#ffffff"
+      align="center"
+      font-size="25px"
+      font-weight="300"
+      padding="0px"
+      font-family="system-ui"
+      letter-spacing="2px"
+
+      />
+      <mj-class
+      name="main-event-info"
+      color="#ffffff"
+      align="center"
+      font-size="20px"
+      font-weight="700"
+      padding="5px 0px"
+      font-family="system-ui"
+      letter-spacing="2px"
+      />
+      <mj-class
+      name="boxer-pic"
+      border-radius="50%"
+      border="0.75px solid red"
+
+      />
+      <mj-class
+      name="fight-info"
+      font-size="15px"
+      color="#ffffff"
+      align="center"
+      padding="10px 35px"
+      line-height="25px"
+      />
+      <mj-class
+      name="fight-info-italic"
+      font-size="15px"
+      color="#ffffff"
+      align="center"
+      padding="0px"
+      font-style="italic"
+      />
+      <mj-class
+        name="order-button"
+        src="google.com"
+      />
+    </mj-attributes>
+     <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+      a{
+        color: #cf1e3a;
+        padding: 5px;
+      }
+    a:hover {
+        font-weight: bold;
+         color: #cf1e3a;
+      }
+      .navbar{
+        display: flex;
+        gap: 0.5rem;
+      }
+      .navbar-col-link{
+        flex: 1;
+        background-color: #020027;
+        color: #fff;
+        border-radius: 10px;
+        padding: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.5s ease-out;
+      }
+     .navbar-col-link:hover,
+     .navbar-col-link:focus {
+        background-color: #fff;
+        color: #cf1e3a;
+}
+      .footer-link{
+        color: grey;
+      }
+      .footer-link:hover{
+        color: grey;
+      }
+      .order-btn-link{
+        font-family:system-ui !important;
+        font-size:14px !important;
+        color:#07218A !important;
+        font-weight: 425 !important;
+        text-decoration: none !important;
+
+        transition: font-size 2s, letter-spacing 2s, transform 2s !important;
+      }
+      .order-btn-link:hover{
+        color:#cf1e3a !important;
+        font-size: 32px !important;
+        letter-spacing: 2px !important;
+      }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#b9babd">
+<!-- HEADER IMPORT -->
+    <mj-include path="./components/header.mjml" />
+
+
+    <mj-raw>
+    <!-- EMAIL CONTENT -->
+</mj-raw>
+<mj-wrapper padding="0px" background-color="#1f2358">
+
+
+<!-- Topic Section - Main Banner -->
+ <mj-section padding="20px 25px 0px 25px" >
+    <mj-column border="2px solid red">
+      <mj-text mj-class="footer-title" font-size="50px" color="#CF1E3A" align="center" font-weight="100" container-background-color="#ffffff" text-transform="uppercase" font-style="italic">D-Boys Nation Presents</mj-text>
+    </mj-column>
+    </mj-section>
+
+     <mj-section background-url="https://cdn1.boxing-social.com/app/uploads/2020/07/Dylan-Price-8-Sean-Michael-HamMayweather-Promotions-1024x816.jpg" background-repeat="no-repeat" background-size="92%" background-position="top"
+     padding="150px 25px">
+    </mj-section>
+
+    <mj-section padding="0px 25px">
+    <mj-column padding="25px" >
+
+
+      <mj-text mj-class="header-title" font-size="60px" color="#ffffff" padding="10px"  align="center" font-weight="900" container-background-color="#CF1E3A" text-transform="uppercase" font-family="Georgia, serif">Fight Night</mj-text>
+
+
+      <mj-text align="center" color="#ffffff" font-family="Georgia, serif" font-size="18px" padding="40px" container-background-color="#16174d">Come See Local Prodigies Become National Superstars!</mj-text>
+
+
+      <mj-text padding="0px 0px 30px 0px" align="center" color="#ffffff" font-family="Georgia, serif" font-size="32px" font-weight="500" text-transform="uppercase" container-background-color="#16174d">Sat Oct 29 9pm ET/6pm PT</mj-text>
+    </mj-column>
+    </mj-section>
+
+
+<!-- PAGE BREAKER IMPORT -->
+    <mj-include path="./components/pgbreak.mjml" />
+
+
+<mj-section padding="20px">
+  <mj-column padding="0px">
+    <mj-text mj-class="main-event-title">
+      **Main Event**
+    </mj-text>
+    <mj-text mj-class="main-event-info">
+      10 Rounds 130-lbs. Lightweight Bout
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-raw>
+<!-- BOXING CARD MATCH-UP-TOP-->
+</mj-raw>
+<mj-section padding="0px 25px">
+<mj-column mj-class="vsboxer-container">
+  <mj-image mj-class="boxer-pic" src="https://boxrec.com/images/thumb/c/ce/784061a.jpg/200px-784061a.jpg" alt="Dylan Price" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fboxrec.com%2Fen%2Fbox-pro%2F784061&psig=AOvVaw1dQX5EQ3UVeqJJxl-R7OK3&ust=1666976233700000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPiOwcbwgPsCFQAAAAAdAAAAABAE"/>
+  <mj-text mj-class="fight-name">Dylan Price</mj-text>
+  <mj-text mj-class="fight-rec">(15-0-0, 0 KOs)</mj-text>
+  </mj-column>
+  <mj-column mj-class="vsboxer-container">
+  <mj-text mj-class="versus-title">VS</mj-text>
+  </mj-column>
+  <mj-column mj-class="vsboxer-container">
+  <mj-image mj-class="boxer-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdzIQ8wMsEzkHVUMro2QtCNM0MNLwXwHaZFysLxQmIq-BZwzNQM2oA7Vhif6httpIr2fU&usqp=CAU" alt="Elijah Garcia" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fboxrec.com%2Fen%2Fbox-pro%2F927452&psig=AOvVaw0AlQV2w_z6UJgQ4PAStXZU&ust=1666975587486000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKDCpLnvgPsCFQAAAAAdAAAAABAJ"/>
+  <mj-text mj-class="fight-name">Elijah Garcia</mj-text>
+  <mj-text mj-class="fight-rec">(12-0-0, 0 KOs)</mj-text>
+  </mj-column>
+</mj-section>
+
+
+
+<mj-raw>
+<!-- Line Brake Top -->
+</mj-raw>
+<mj-section padding="25px 25px 0px 25px">
+<mj-column padding="0px">
+  <mj-image src="https://i.imgur.com/cnaksry.png" alt="linebreak" height="2px"/>
+</mj-column>
+</mj-section>
+<mj-raw>
+<!-- Line Brake Bottom-->
+</mj-raw>
+
+
+
+<mj-section padding="10px 25px">
+<mj-column mj-class="vsboxer-container">
+  <mj-image mj-class="boxer-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5550BcPfJMlvxoJlLqBM6ENCjU-lPZ6vnpBSrJn1ZfQdHhmJdk3JXlBloQdyNe7-vfhY&usqp=CAU" alt="Fancisco Navarro" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fboxrec.com%2Fen%2Fproboxer%2F827523&psig=AOvVaw3LNL8_N0fb1ZGK-TxRkj8k&ust=1666976773437000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKCb78XygPsCFQAAAAAdAAAAABAE"/>
+  <mj-text mj-class="fight-name">Fransico Navarro</mj-text>
+  <mj-text mj-class="fight-rec">(3-5-0, 2 KOs)</mj-text>
+  </mj-column>
+  <mj-column mj-class="vsboxer-container">
+  <mj-text mj-class="versus-title">VS</mj-text>
+  </mj-column>
+  <mj-column>
+  <mj-image mj-class="boxer-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAtF3K6VOSh6xm1lSRKREhPkdaqJQc-rKRPA&usqp=CAU" alt="Fredric Bowen" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fboxrec.com%2Fen%2Fbox-pro%2F503536&psig=AOvVaw0AlQV2w_z6UJgQ4PAStXZU&ust=1666975587486000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOi-hczwgPsCFQAAAAAdAAAAABAn"/>
+  <mj-text mj-class="fight-name">Fredric Bowen</mj-text>
+  <mj-text mj-class="fight-rec">(6-4-0, 3 KOs)</mj-text>
+  </mj-column>
+</mj-section>
+<mj-section padding="10px 25px">
+<mj-column mj-class="vsboxer-container">
+  <mj-image mj-class="boxer-pic" src="https://boxrec.com/images/thumb/3/35/Joan_Guzman2.jpg/200px-Joan_Guzman2.jpg" alt="Joan Guzman" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fboxrec.com%2Fen%2Fbox-pro%2F58717&psig=AOvVaw0AlQV2w_z6UJgQ4PAStXZU&ust=1666975587486000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOi-hczwgPsCFQAAAAAdAAAAABAi"/>
+  <mj-text mj-class="fight-name">Joan Guzman</mj-text>
+  </mj-column>
+  <mj-column mj-class="vsboxer-container">
+  <mj-text mj-class="versus-title">VS</mj-text>
+  </mj-column>
+  <mj-column mj-class="vsboxer-container">
+  <mj-image mj-class="boxer-pic" src="https://boxrec.com/images/thumb/1/12/850302.jpg/200px-850302.jpg" alt="Galal Yafai" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fboxrec.com%2Fen%2Fbox-pro%2F850302&psig=AOvVaw0AlQV2w_z6UJgQ4PAStXZU&ust=1666975587486000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOi-hczwgPsCFQAAAAAdAAAAABAd"/>
+  <mj-text mj-class="fight-name">Galal Yafai</mj-text>
+
+  </mj-column>
+</mj-section>
+<mj-section padding="10px 25px">
+<mj-column mj-class="vsboxer-container">
+  <mj-image mj-class="boxer-pic" src="https://boxrec.com/images/thumb/2/22/DanAzeez.jpeg/200px-DanAzeez.jpeg" alt="Dan Azeez" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fboxrec.com%2Fen%2Fbox-pro%2F819304&psig=AOvVaw0AlQV2w_z6UJgQ4PAStXZU&ust=1666975587486000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOi-hczwgPsCFQAAAAAdAAAAABAY"/>
+  <mj-text mj-class="fight-name">Dan Azeez</mj-text>
+  </mj-column>
+  <mj-column mj-class="vsboxer-container">
+  <mj-text mj-class="versus-title">VS</mj-text>
+  </mj-column>
+  <mj-column mj-class="vsboxer-container">
+  <mj-image mj-class="boxer-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK8x0V--YwB5MXd-LBbKM98hvOZd75m_L6rqLdBsc3bzg9sJISh7qD1Mb6wN3likUJIPo&usqp=CAU" alt="Celso Neves" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fboxrec.com%2Fen%2Fbox-pro%2F829023&psig=AOvVaw1_m4rn1xeHKRV9usrJmKU2&ust=1666976822416000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjY9tzygPsCFQAAAAAdAAAAABAE"/>
+  <mj-text mj-class="fight-name">Celso Neves</mj-text>
+  </mj-column>
+</mj-section>
+<mj-section padding="10px 25px 30px 25px">
+<mj-column mj-class="vsboxer-container">
+  <mj-image mj-class="boxer-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmaxURzb_2dcdZvB_CuAA5BZC6wp0Q_H4Yg&usqp=CAU" alt="Rudy Garcia" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fboxrec.com%2Fen%2Fproboxer%2F759591&psig=AOvVaw0AlQV2w_z6UJgQ4PAStXZU&ust=1666975587486000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKDCpLnvgPsCFQAAAAAdAAAAABAE" height="170px"/>
+  <mj-text mj-class="fight-name">Rudy Garcia</mj-text>
+  </mj-column>
+  <mj-column mj-class="vsboxer-container">
+  <mj-text mj-class="versus-title">VS</mj-text>
+  </mj-column>
+  <mj-column mj-class="vsboxer-container">
+  <mj-image mj-class="boxer-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxvkEMIYcU-eqAvATFGLj9vpidGL9QDTHurQ&usqp=CAU" alt="Lamont Roach" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fboxrec.com%2Fen%2Fbox-pro%2F683920&psig=AOvVaw0AlQV2w_z6UJgQ4PAStXZU&ust=1666975587486000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOi-hczwgPsCFQAAAAAdAAAAABAJ"/>
+   <mj-text mj-class="fight-name">Lamont Roach</mj-text>
+  </mj-column>
+</mj-section>
+<mj-section padding="0px">
+  <mj-column padding="0px">
+  <mj-text mj-class="main-event-info" padding="5px 40px 20px 40px" font-size="15px">
+  Live from the Prudential Center, Newark, NJ - USA
+  </mj-text>
+  <mj-text mj-class="fight-info">
+  DYLAN PRICE - the phenom who’s changed the face and trajectory of the sport of professional boxing will be facing his most dangerous opponent yet in ELIJAH GARCIA, who possesses a 16-fight undefeated record which still stands
+  </mj-text>
+    <mj-text mj-class="fight-info">
+ D-BOYS NATION is proud to have carried all of Dylan Price's PPV bouts and this event is the most exciting one yet. We are pleased to offer pre-orders NOW for an electric night of boxing brought to you by D-Boy's Promotions in conjunction with FITE on Saturday, Sept. 29th at 9pm ET. This PPV event will be available worldwide except Brazil and New Zealand and watchable on all D-BOYS NATION streaming platforms
+  </mj-text>
+  </mj-column>
+</mj-section>
+
+<!-- CUSTOM BUTTON IMPORT -->
+    <mj-include path="./components/custombtn.mjml" />
+
+<mj-section>
+  <mj-column>
+  <mj-text mj-class="fight-info-italic">
+  *card subject to change
+  </mj-text>
+  </mj-column>
+</mj-section>
+
+<!-- PAGE BREAKER IMPORT -->
+    <mj-include path="./components/pgbreak.mjml" />
+
+
+<mj-section padding="0px">
+  <mj-column padding="0px">
+    <mj-image src="https://i.imgur.com/uJPMwP5.png" alt="viewing icons" padding="0px"/>
+  </mj-column>
+</mj-section>
+
+
+<!-- PAGE BREAKER IMPORT -->
+    <mj-include path="./components/pgbreak.mjml" />
+
+
+
+
+<mj-section padding="0px">
+  <mj-column padding="0px">
+    <mj-image src="https://i.imgur.com/AN1txRQ.png" alt="service icons" />
+  </mj-column>
+</mj-section>
+
+
+
+
+<!-- PAGE BREAKER IMPORT -->
+    <mj-include path="./components/pgbreak.mjml" />
+
+
+
+
+<!-- ADVERTISEMENT -->
+
+<mj-section padding="10px" >
+  <mj-column width="95%" border-radius="25px">
+      <mj-text mj-class="DBoys-Ad-1" padding="10px 5px 20px 5px" color="red" align="center" font-size="20px">
+      Are you looking to learn the sweet science of boxing from world reknown trainers with a reputation for success?
+      </mj-text>
+  </mj-column>
+</mj-section>
+
+
+    <mj-section padding="0px 28px 30px 12px">
+
+    <mj-column width="60%" border-radius="7px" padding="5px">
+      <mj-image  css-class="video" src="https://media.giphy.com/media/ruVhCLS758TWt3tdKJ/giphy.gif" />
+      <mj-text mj-class="fight-info-italic" color="red"> Look No Further! </mj-text>
+      <mj-text mj-class="fight-info-italic" color="#ffffff" padding="20px "> "D-Boys Boxing Gym & Community Center" Will Get Your Skills Up-To-Par, And Fitness Goals in order </mj-text>
+      <mj-text align="center" padding="0px 20px" font-size="16px" color="#ffffff"> We train all ages, and offer the best prices and flexible times to ensure your health & fitness goals never have to be cast aside due to varying work schedules
+      </mj-text>
+    </mj-column>
+
+    <mj-column width="40%">
+      <mj-image  css-class="video" src="https://i.imgur.com/iUZyYcE.jpg" />
+      <mj-text mj-class="fight-info-italic" color="#ffffff" padding-top="20px" font-size="18px">Call now & begin your lessons today!</mj-text>
+        </mj-text>
+        <mj-text mj-class="fight-info-italic" color="#ffffff" padding="20px" font-size="24px">#856-842-7577</mj-text>
+        </mj-text>
+        <mj-text mj-class="fight-info-italic" color="red" font-size="12px" padding="10px">Recognized As South Jersey's Best Boxing Gym!
+        </mj-text>
+    </mj-column>
+    </mj-section>
+
+
+    <mj-section background-url="https://static.wixstatic.com/media/a241ef_044c4d79162e4a518defb44d9b773307.jpg/v1/fill/w_640,h_342,al_c,q_80,enc_auto/a241ef_044c4d79162e4a518defb44d9b773307.jpg" background-repeat="no-repeat" background-size="92%" padding="150px 0px">
+    </mj-section>
+
+    <mj-section padding="5px 0px 10px 0px">
+      <mj-column padding="0px">
+
+      <mj-text mj-class="footer-title" font-size="25px" color="red" padding="0px" align="center" font-weight="500" container-background-color="#ffffff" text-transform="uppercase">We Are</mj-text>
+
+      <mj-text mj-class="footer-subtitle" font-size="50px" color="red" padding="0px" align="center" font-weight="500" container-background-color="#ffffff" text-transform="uppercase"> D-Boys Nation!</mj-text>
+
+       <mj-text mj-class="footer-info" font-size="15px" color="#ffffff" padding="40px" align="center">Do not reply to this address, if you need support, <a href="https://www.dboysboxing.com/home">go here</a>.</mj-text>
+    </mj-column>
+    </mj-section>
+
+<!-- FOOTER IMPORT -->
+    <mj-include path="./components/footer.mjml" />
+
+
+</mj-wrapper>
+    </mj-body>
+</mjml>

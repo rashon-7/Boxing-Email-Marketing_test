@@ -1,0 +1,17 @@
+<!-- CUSTOM ORDER BUTTON -->
+<mj-section mj-class="order-button" padding="10px 0px">
+ <mj-column  background-color="#F5F7FA" padding="7px" width="50%" border-radius="7px">
+ <mj-text mj-class="order-btn" align="center">
+    <a href="#" class="order-btn-link">Order Now</a>
+ </mj-text>
+        <!-- <mj-social color="#07218A"
+    align="center"
+    font-size="30px"
+    font-family="system-ui"
+    font-weight="425" icon-size="0px" mode="horizontal">
+          <mj-social-element href="google">
+            Order Now
+          </mj-social-element>
+        </mj-social> -->
+      </mj-column>
+</mj-section>

@@ -1,0 +1,23 @@
+https://www.kapwing.com/videos/63583735d833cb01ecc0bd1c
+
+https://i.imgur.com/usFSMBg.png
+
+      <mj-text css-class="banner-title">
+       vs. Oscar Paul
+      </mj-text>
+      <mj-text css-class="banner-title">
+       Oscar Paul
+      </mj-text>
+      <mj-button background-color="#262447" href="https://mjml.io/"  align="center">
+        ORDER YOUR TICKET NOW
+      </mj-button>
+
+  a{
+        color: #cf1e3a;
+        text-decoration: none;
+        padding: 5px;
+      }
+    a:hover {
+        font-weight: bold;
+         color: #cf1e3a;
+      }

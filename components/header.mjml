@@ -1,0 +1,11 @@
+<mj-raw>
+    <!-- EMAIL HEADER -->
+</mj-raw>
+    <mj-section padding="0px" background-color="#ffffff">
+        <mj-column vertical-align="middle">
+        <mj-image href="https://www.dboysboxing.com/home" src="https://static.wixstatic.com/media/039736_b6981c28c7fb4429962d3531f7374c32~mv2.jpg/v1/fill/w_154,h_199,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Edited%20Image%202016-02-17%2019-57-01_edited_.jpg" width="80px" align="left"/>
+        </mj-column>
+        <mj-column vertical-align="middle">
+         <mj-text mj-class="slogan">Where Boxing Legends Are Born...</mj-text>
+        </mj-column>
+    </mj-section>
